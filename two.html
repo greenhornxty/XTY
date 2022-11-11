@@ -34,53 +34,62 @@
         document.querySelector('.box').innerHTML = getTime();
     }, 1000)
     </script>
-    <br /><p style="text-align: center;">
-        <div class="box"></div>
+    <p style="text-align: center;">
+
+        <div calss="back">
+            <input type="button" class="back" value="返回" />
+        </div>
+
+        <div class="shang">
+
+            <h1>肖彤宇</h1>
+
+        </div>
         <div class="zuo">
-            
+            <h3> 微信 </h3>
+            <img src="./wx.jpg" width="150" alt="图过期" title="扫描添加" />
+        </div>
+        <div class="zuo2">
+            <h3> 企鹅 </h3>
+            <img src="./qq.jpg" width="150" alt="图过期" title="扫描添加" />
+        </div>
 
+        <div class="you">
+            <h3> 访问 </h3>
 
-                    </div >
+            <div class="dian">
+                <input type="button" class="QQ" value="QQ空间" />
+            </div>
 
+            <div class="dian">
+                <input type="button" class="addqq" value="QQ快捷添加" />
+            </div>
 
+        </div>
 
+        <div class="xia">
+            <h3>联系电话</h3>
+            <h3>17699103371</h3>
 
-                    <br />
-                        <audio src="mu.mp3" autoplay loop></audio>
-                        <br />
+        </div>
 
+        <audio src="mu.mp3" autoplay loop></audio>
 
-                    <p style="text-align: center;">
-                        <font size="5" > 肖彤宇 </font>
-                    </p>
-                    <br />    <hr />
-                    <br />
-                    <p style="text-align: center;">
-                        <b> 微信 </b>
-                    </p>
-                    <p style="text-align: center;">
-                        <img src="./wx.jpg" width="150" alt="图过期" title="扫描添加" />
-                    </p>
-                    <div align="center">	——  🌍  —— </div>
-                    <p style="text-align: center;">
-                        <b> QQ </b>
-                    </p>
+<script >
+    let sub = document.querySelector('.QQ')
+    sub.onclick = function () {
+        window.location.href = 'https://user.qzone.qq.com/1522345857'
+    }
+    let sub1 = document.querySelector('.addqq')
+    sub1.onclick = function () {
+        window.location.href = 'http://wpa.qq.com/msgrd?v=3&uin=1522345857&site=qq&menu=yes'
+    }
+    let sub2 = document.querySelector('.back')
+    sub2.onclick = function () {
+        window.location.href = './first.html'
+    }
 
-                    <p style="text-align: center;">
-                        <a href="http://wpa.qq.com/msgrd?v=3&uin=1522345857&site=qq&menu=yes" target="_blank"> 	点击添加好友 </a>
-                    </p>
-                    <p style="text-align: center;">
-                        <b >访问空间：</b>
-                        <a href="https://user.qzone.qq.com/1522345857" target="_blank"> 我的QQ </a>
-                    </p>
-                    <div align="center">	——  🌍  —— </div>
-                    <p style="text-align: center;">
-                        <b>联系电话：17699103371</b>
-                    </p>
-                    <br />
-                    <p style="text-align: center;">
-                        <img src="./0.gif" width="300" alt="图过期啦" title="啊哈" />
-                    </p>
+</script>
 </body >
 
 </html >

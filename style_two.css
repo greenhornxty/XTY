@@ -11,7 +11,7 @@ body {
 	padding: 0;
 	width: 100%;
 	height: 100vh;
-	background: url("./C.jfif") no-repeat center center;
+	background: url("./C.jpg") no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	background-color: #f8baba;
@@ -19,25 +19,27 @@ body {
 }
 .shang {
 	position: absolute;
-	top: 5%;
-	left: 45%;
+	top: 15%;
+	left: 47%;
+	text-align: center;
 }
 	.shang h1 {
 		margin: 0 0 40px;
 		padding: 0;
 		text-align: center;
-		color: rgba(0,0,0,.5);
-		font-size: 50px;
+		color: rgba(0,0,0,.9);
+		font-size: 40px;
 	}
 .zuo {
 	position: absolute;
 	top: 40%;
 	left: 25%;
+	text-align: center;
 	transform: translate(-50%,-50%);
 	width: 250px;
 	padding: 60px 40px;
 	background: #f8f2f2b4;
-	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	box-shadow: 0 15px 20px rgba(0,0,0,.5);
 
 }
 
@@ -45,62 +47,59 @@ body {
 		margin: 0 0 30px;
 		padding: 0;
 		text-align: center;
-		color: rgb(14, 9, 9, 0.70);
+		color: rgb(14, 9, 9, 0.8);
 		font-size: 23px;
 	}
 
-	.zuo .dan {
+
+.zuo2 {
+	position: absolute;
+	top: 80%;
+	left: 25%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	width: 250px;
+	padding: 60px 40px;
+	background: #f8f2f2b4;
+	box-shadow: 0 15px 20px rgba(0,0,0,.5);
+}
+
+.zuo2 h3 {
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+	color: rgb(14, 9, 9, 0.8);
+	font-size: 23px;
+}
+
+.you {
+	position: absolute;
+	top: 40%;
+	left: 75%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	width: 250px;
+	padding: 60px 40px;
+	background: #c0c0c06c;
+	box-shadow: 0 15px 20px rgba(0,0,0,.5);
+}
+
+
+.you h3 {
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+	font-weight:bold;
+	color: rgb(14, 9, 9, 1);
+	font-size: 23px;
+}
+
+	.you .dian {
 		position: relative;
 		margin: 20px 10px;
 	}
 
-	.zuo .dan input {
-		outline: none;
-		height: 40px;
-		padding: 10px;
-		box-sizing: border-box;
-		width: 100%;
-		border: 1px solid rgba(0,0,0,.5);
-		background: transparent;
-		font-size: 15px;
-	}
-		.zuo .dan input[type="button"] {
-			background: #1f75e8;
-			color: #fff;
-			border: none;
-			cursor: pointer;
-			text-transform: uppercase;
-		}
-		.zuo .dan input[type="button"]:hover {
-			background: #4cbca5;
-		}
-
-
-.ym {
-	position: absolute;
-	top: 40%;
-	left: 80%;
-	transform: translate(-50%,-50%);
-	width: 200px;
-	padding: 60px 40px;
-	background: #f8f2f2b4;
-	box-shadow: 0 15px 20px rgba(0,0,0,.2);
-}
-
-.ym h3 {
-	margin: 0 0 30px;
-	padding: 0;
-	text-align: center;
-	color: rgb(14, 9, 9, 0.70);
-	font-size: 23px;
-}
-
-.ym .dan {
-	position: relative;
-	margin: 40px 10px;
-}
-
-	.ym .dan input {
+	.you .dian input {
 		outline: none;
 		height: 40px;
 		padding: 10px;
@@ -112,16 +111,46 @@ body {
 		font-size: 15px;
 	}
 
-		.ym .dan input[type="button"] {
-			background: #1f75e8;
+		.you .dian input[type="button"] {
+			background: #0082ff;
 			color: #fff;
 			border: none;
 			cursor: pointer;
 			text-transform: uppercase;
 		}
 
-			.ym .dan input[type="button"]:hover {
+			.you .dian input[type="button"]:hover {
 				background: #4cbca5;
 			}
 
+.xia {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	width: 250px;
+	padding: 60px 40px;
+	background: #ffffff95;
+	box-shadow: 0 15px 20px rgba(0,0,0,.3);
+}
 
+
+	.xia h3 {
+		margin: 0 0 30px;
+		padding: 0;
+		text-align: center;
+		font-weight: bold;
+		color: rgb(14, 9, 9, 1);
+		font-size: 23px;
+	}
+
+.back {
+	position: absolute;
+	left: 1%;
+	text-align: center;
+	width: 70px;
+	padding: 10px 10px;
+	background: #ffffff26;
+	box-shadow: 0 15px 15px rgba(0,0,0,.2);
+}
