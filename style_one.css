@@ -1,0 +1,127 @@
+div {
+	font-family: KaiTi;
+}
+
+a {
+	color:blue;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: url("./first_back.gif") no-repeat center center; 
+	background-size: cover;
+	background-attachment: fixed; 
+	background-color: #f8baba; 
+	font-family: sans-serif;
+}
+.shang {
+	position: absolute;
+	top: 5%;
+	left: 45%;
+}
+	.shang h1 {
+		margin: 0 0 40px;
+		padding: 0;
+		text-align: center;
+		color: rgba(0,0,0,.5);
+		font-size: 50px;
+	}
+.zuo {
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	width: 250px;
+	padding: 60px 40px;
+	background: #f8f2f2b4;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+
+}
+
+	.zuo h3 {
+		margin: 0 0 30px;
+		padding: 0;
+		text-align: center;
+		color: rgb(14, 9, 9, 0.70);
+		font-size: 23px;
+	}
+
+	.zuo .dan {
+		position: relative;
+		margin: 20px 10px;
+	}
+
+	.zuo .dan input {
+		outline: none;
+		height: 40px;
+		padding: 10px;
+		box-sizing: border-box;
+		width: 100%;
+		border: 1px solid rgba(0,0,0,.5);
+		background: transparent;
+		font-size: 15px;
+	}
+		.zuo .dan input[type="button"] {
+			background: #1f75e8;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			text-transform: uppercase;
+		}
+		.zuo .dan input[type="button"]:hover {
+			background: #4cbca5;
+		}
+
+
+.ym {
+	position: absolute;
+	top: 40%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+	padding: 60px 40px;
+	background: #f8f2f2b4;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+}
+
+.ym h3 {
+	margin: 0 0 30px;
+	padding: 0;
+	text-align: center;
+	color: rgb(14, 9, 9, 0.70);
+	font-size: 23px;
+}
+
+.ym .dan {
+	position: relative;
+	margin: 40px 10px;
+}
+
+	.ym .dan input {
+		outline: none;
+		height: 40px;
+		padding: 10px;
+		left: 50%;
+		box-sizing: border-box;
+		width: 100%;
+		border: 1px solid rgba(0,0,0,.5);
+		background: transparent;
+		font-size: 15px;
+	}
+
+		.ym .dan input[type="button"] {
+			background: #1f75e8;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			text-transform: uppercase;
+		}
+
+			.ym .dan input[type="button"]:hover {
+				background: #4cbca5;
+			}
+
+

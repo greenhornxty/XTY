@@ -1,0 +1,96 @@
+﻿
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> 联系方式 姚梅 </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            font-weight: bold;
+        }
+        a{
+            color :blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <style>
+        body {
+            background: url("./ym.jpg") no-repeat center center; /*加载背景图*/ /* 背景图不平铺 */
+            background-size: cover; /* 让背景图基于容器大小伸缩 */
+            background-attachment: fixed; /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+            background-color: #CCCCCC; /* 设置背景颜色，背景图加载过程中会显示背景色 */
+        }
+    </style>
+    <br /><p style="text-align: center;">
+              <div> 🧸    🧸    🧸    🧸    🧸 </div>
+        <div class="box"></div>
+        <script>
+            function getTime() {
+                var date = new Date();
+                var year = date.getFullYear();
+                var month = date.getMonth() + 1;
+                var day = date.getDate();
+                var hour = date.getHours();
+                hour = hour < 10 ? '0' + hour : hour;
+                var minute = date.getMinutes();
+                minute = minute < 10 ? '0' + minute : minute;
+                var seconds = date.getSeconds();
+                seconds = seconds < 10 ? '0' + seconds : seconds;
+                return '			现在是：' + year + '年' + month + '月' + day + '日&nbsp;' + hour + ':' + minute + ':' + seconds;
+            }
+
+            setInterval(function () {
+                document.querySelector('.box').innerHTML = getTime();
+            }, 1000)
+        </script>
+
+
+        <div> 🧸    🧸    🧸    🧸    🧸 </div>
+    <br />
+        <audio src="ym晴天.mp3" autoplay loop></audio>
+        <br />
+
+
+    <p style="text-align: center;">
+        <font size="5" > 姚梅 </font>
+    </p>
+    <br />    <hr />
+    <br />
+    <p style="text-align: center;">
+        <b> 微信 </b>
+    </p>
+    <p style="text-align: center;">
+        <img src="./wxym.jpg" width="150" alt="无法加载，请添加：Ymi3331875638" title="扫描添加微信" />
+    </p>
+    <div align="center">	——  🌍  —— </div>
+    <p style="text-align: center;">
+        <b> QQ </b>
+    </p>
+
+    <p style="text-align: center;">
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=3331875638&site=qq&menu=yes" target="_blank"> 	点击添加好友 </a>
+    </p>
+    <p style="text-align: center;">
+        <b >访问空间：</b>
+        <a href="https://user.qzone.qq.com/3331875638" target="_blank"> 我的QQ </a>
+    </p>
+    <div align="center">	——  🌍  —— </div>
+    <p style="text-align: center;">
+        <b>联系电话：19193789052</b>
+    </p>
+    <br />
+    <p style="text-align: center;">
+        <img src="./ym.gif" width="300" alt="图过期啦" title="啊哈" />
+    </p>
+</body>
+
+</html>

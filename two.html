@@ -1,0 +1,86 @@
+﻿
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> 联系方式 XTY </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style_two.css" />
+
+</head>
+
+<body>
+    <script>
+    function getTime() {
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        var day = date.getDate();
+        var hour = date.getHours();
+        hour = hour < 10 ? '0' + hour : hour;
+        var minute = date.getMinutes();
+        minute = minute < 10 ? '0' + minute : minute;
+        var seconds = date.getSeconds();
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+        return '🕔       当前' + year + '年' + month + '月' + day + '日&nbsp;' + hour + ':' + minute + ':' + seconds + '      🕔';
+    }
+
+    setInterval(function () {
+        document.querySelector('.box').innerHTML = getTime();
+    }, 1000)
+    </script>
+    <br /><p style="text-align: center;">
+        <div class="box"></div>
+        <div class="zuo">
+            
+
+
+                    </div >
+
+
+
+
+                    <br />
+                        <audio src="mu.mp3" autoplay loop></audio>
+                        <br />
+
+
+                    <p style="text-align: center;">
+                        <font size="5" > 肖彤宇 </font>
+                    </p>
+                    <br />    <hr />
+                    <br />
+                    <p style="text-align: center;">
+                        <b> 微信 </b>
+                    </p>
+                    <p style="text-align: center;">
+                        <img src="./wx.jpg" width="150" alt="图过期" title="扫描添加" />
+                    </p>
+                    <div align="center">	——  🌍  —— </div>
+                    <p style="text-align: center;">
+                        <b> QQ </b>
+                    </p>
+
+                    <p style="text-align: center;">
+                        <a href="http://wpa.qq.com/msgrd?v=3&uin=1522345857&site=qq&menu=yes" target="_blank"> 	点击添加好友 </a>
+                    </p>
+                    <p style="text-align: center;">
+                        <b >访问空间：</b>
+                        <a href="https://user.qzone.qq.com/1522345857" target="_blank"> 我的QQ </a>
+                    </p>
+                    <div align="center">	——  🌍  —— </div>
+                    <p style="text-align: center;">
+                        <b>联系电话：17699103371</b>
+                    </p>
+                    <br />
+                    <p style="text-align: center;">
+                        <img src="./0.gif" width="300" alt="图过期啦" title="啊哈" />
+                    </p>
+</body >
+
+</html >
